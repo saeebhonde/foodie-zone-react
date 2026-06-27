@@ -1,0 +1,55 @@
+.menu-title {
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* SEARCH */
+.search-box {
+  width: 60%;
+  max-width: 600px;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  display: block;
+}
+
+/* CATEGORY */
+.category-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.category-box button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 25px;
+  background: #eee;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category-box button:hover {
+  background: #ff4d2d;
+  color: white;
+  transform: scale(1.05);
+}
+
+.category-box button.active {
+  background: #ff4d2d;
+  color: white;
+}
+
+/* GRID */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  padding: 10px;
+}
